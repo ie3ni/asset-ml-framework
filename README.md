@@ -3,18 +3,18 @@
 ## Overview
 DISCLAIMER: This project is intended for research purposes only and is in no way financial advice.
 
-This project is a modular machine learning research pipeline for predicting an assets short term price direction using technical indicators and multiple models.
+This project is a modular machine learning research pipeline for predicting an asset's short-term price direction using technical indicators and multiple models.
 
 It compares:
 - Machine Learning Models (Logistic Regression, Random Forest, etc.)
 - Naive Baselines (Always Up, Persistence)
 - Probabilistic outputs (model confidence)
 
-The goal is not just prediction, but research-grade evaluation of predictive signal vs naive benchmarks. The architecture is modular and can be upgraded, as well as repurposed for other research uses. This version of the model requires fine-tuning through basic parameters and my current model has already evolved beyond this frameowkr but it still serves as a good guide and starting point.
+The goal is not just prediction; rather, research-grade evaluation of predictive signal vs naive benchmarks. The architecture is modular and can be upgraded and repurposed for other research uses. This version of the model requires fine-tuning of basic parameters, and my current model has already evolved beyond this framework, but it still serves as a good guide and starting point.
 
-*To generate and work on each model individually the user only needs to access the model_config.py file and uncomment the model they want to run, and then they can fine tune the desired parameters
+*To generate and work on each model individually, the user only needs to access the model_config.py file and uncomment the model they want to run, and then they can fine-tune the desired parameters
 
-*To switch the asset being analyzed same idea but in the asset_config.py file
+*To switch the asset being analyzed, same idea but in the asset_config.py file
 
 General ML Framework at work here:
 
