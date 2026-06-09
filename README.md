@@ -25,6 +25,7 @@ The goal is not just prediction, but research-grade evaluation of predictive sig
 Examples:
 - Logistic Regression
 - Random Forest
+- XGBOOST
 
 These models output:
 - A binary prediction (UP = 1, DOWN = 0)
