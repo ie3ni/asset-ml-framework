@@ -16,6 +16,22 @@ The goal is not just prediction, but research-grade evaluation of predictive sig
 
 *To switch the asset being analyzed same idea but in the asset_config.py file
 
+
+Market data
+   ↓
+Feature engineering (RSI, MA, etc.)
+   ↓
+Train/test split
+   ↓
+3 ML models:
+   - Logistic Regression (linear baseline)
+   - Random Forest (rule-based nonlinear)
+   - XGBoost (boosted nonlinear learner)
+   ↓
+Evaluation metrics
+   ↓
+Prediction reports / signals
+
 ---
 
 # 🧠 Models Used
