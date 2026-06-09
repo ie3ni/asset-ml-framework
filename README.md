@@ -18,18 +18,29 @@ The goal is not just prediction, but research-grade evaluation of predictive sig
 
 
 Market data
+
    ↓
+   
 Feature engineering (RSI, MA, etc.)
+
    ↓
+   
 Train/test split
+
    ↓
+   
 3 ML models:
+
    - Logistic Regression (linear baseline)
    - Random Forest (rule-based nonlinear)
    - XGBoost (boosted nonlinear learner)
+
    ↓
+
 Evaluation metrics
+   
    ↓
+   
 Prediction reports / signals
 
 ---
